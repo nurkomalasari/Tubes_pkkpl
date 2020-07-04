@@ -1,0 +1,427 @@
+{
+  "id": "70ff153f-c468-4682-907e-db87ebdc26cb",
+  "version": "2.0",
+  "name": "download pemasukan pengeluaran",
+  "url": "http://127.0.0.1:8000/sekertaris",
+  "tests": [{
+    "id": "bbe60132-bea1-4fc0-8540-146cd0913b98",
+    "name": "Laporan pemasukan dan pengeluaran",
+    "commands": [{
+      "id": "ceb48d62-53e4-46fc-b168-6987ef6f914e",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/bendahara",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d814fc1-5ba1-4f19-b73e-85ecc27dbe75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a1508b4-091d-47de-a063-82a9ebae6299",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage Pemasukan",
+      "targets": [
+        ["linkText=Manage Pemasukan", "linkText"],
+        ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidenav-collapse-main']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pemasukan')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage Pemasukan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc73f98-c053-4903-bfd3-960f50aa834c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+ Tambah data pemasukan",
+      "targets": [
+        ["linkText=+ Tambah data pemasukan", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'+ Tambah data pemasukan')]", "xpath:link"],
+        ["xpath=//div[@id='table-component']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pemasukanCreate')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+ Tambah data pemasukan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9649a344-21b9-4482-b76a-3127d703c988",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pemasukan",
+      "targets": [
+        ["name=nominal_pemasukan", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pemasukan']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b793cf-92cb-4669-ad6f-0bf361dcf92e",
+      "comment": "",
+      "command": "type",
+      "target": "name=nominal_pemasukan",
+      "targets": [
+        ["name=nominal_pemasukan", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pemasukan']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "20000"
+    }, {
+      "id": "de641a92-b4bd-40af-a68f-b73100eaf40b",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0bbb767-c0c3-45c3-87d7-414a1f88a537",
+      "comment": "",
+      "command": "type",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2020-07-02"
+    }, {
+      "id": "c96e82c7-2d5f-4eaa-8fa0-795ddf319b5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,161)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4526ed9c-8f7b-49d1-bfe2-29804869f56a",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50233066-35f1-49be-89c9-7b2ed343e1e2",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "891b840a-175a-4edb-9448-83c9524f42a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8475d2c8-2fdf-4aa6-9813-6589e4b83a4d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78ff30b1-bf3b-4b2c-a9dc-d10d6fb13e7a",
+      "comment": "",
+      "command": "type",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Pemasukan 1"
+    }, {
+      "id": "a39bbb05-a406-46fc-ac2c-c0f7338d7123",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d48971d-8b77-4f8e-866e-8a07241773a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage Pengeluaran",
+      "targets": [
+        ["linkText=Manage Pengeluaran", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidenav-collapse-main']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pengeluaran')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage Pengeluaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0618275d-696b-4494-ad59-eafe74ba1f3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+ Tambah data Pengeluaran",
+      "targets": [
+        ["linkText=+ Tambah data Pengeluaran", "linkText"],
+        ["css=.btn-outline-success:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'+ Tambah data Pengeluaran')]", "xpath:link"],
+        ["xpath=//div[@id='table-component']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pengeluaranCreate')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+ Tambah data Pengeluaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "633e23be-46d7-43c0-ba2e-0cd0bea66cce",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be25cba5-2aba-40e6-ac83-ab386bc266bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "2df9e62a-0e53-4988-9415-a868dae3f684",
+      "comment": "",
+      "command": "click",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e65e16b-373b-4506-8864-dc7115ef705c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3)",
+      "targets": [
+        ["css=.form-group:nth-child(3)", "css:finder"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10bbc05c-7ca7-4575-bd50-306e91e8adfb",
+      "comment": "",
+      "command": "click",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33983cf-b821-4763-b8a7-62bbbda9a797",
+      "comment": "",
+      "command": "type",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Pemabayaran"
+    }, {
+      "id": "e17183eb-9d13-4556-96c5-c674441842a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b33cb2e-d66b-4c4a-a6cd-aacadb7d98a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2020-07-04"
+    }, {
+      "id": "7f8cd0bb-4c7c-4c4d-ba53-39686095456c",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5106fb45-b8ab-407c-b84a-dcf51402a40d",
+      "comment": "",
+      "command": "type",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "jkajkdak"
+    }, {
+      "id": "272cfcb8-d644-461d-beb5-cd8f80134eb0",
+      "comment": "",
+      "command": "click",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66015324-f64c-4fb4-bf13-1aa8b6d57106",
+      "comment": "",
+      "command": "type",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Template SRS OO JTI v.1.2 SISMENKEUSIP (1) (1).docx"
+    }, {
+      "id": "0be9eb37-d8d6-43e0-bd82-2952c58fe423",
+      "comment": "",
+      "command": "click",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9cff9b1-86fa-44fa-a51d-f32aec58c4dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Untitled Diagram (10).png"
+    }, {
+      "id": "602938ff-b6cc-4617-a371-983ad308a1a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "548143a1-c8c9-48a3-b222-68687d1c1647",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laporan Keuangan",
+      "targets": [
+        ["linkText=Laporan Keuangan", "linkText"],
+        ["css=.mb-md-3 .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidenav-collapse-main']/ul/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/bendahara/laporan')]", "xpath:href"],
+        ["xpath=//ul/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laporan Keuangan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc97ec1-c63a-484f-a0a0-31c16f7ff53c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download Laporan",
+      "targets": [
+        ["linkText=Download Laporan", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Download Laporan')]", "xpath:link"],
+        ["xpath=//div[@id='table-component']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'laporan/export-excel')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download Laporan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9d2086b9-0949-4a76-95ea-bb1f2dc30e19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bbe60132-bea1-4fc0-8540-146cd0913b98"]
+  }],
+  "urls": ["http://127.0.0.1:8000/bendahara"],
+  "plugins": []
+}

@@ -1,0 +1,512 @@
+{
+  "id": "327ab008-9057-4c29-be81-a02c928ed62d",
+  "version": "2.0",
+  "name": "Manage Pengeluaran tidak valid",
+  "url": "http://127.0.0.1:8000/bendahara",
+  "tests": [{
+    "id": "c97fc209-0f10-4081-8b8c-43dc2b9fe0b9",
+    "name": "pengeluaran",
+    "commands": [{
+      "id": "545c9986-9756-473f-9d28-8257728d555f",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/bendahara",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf559b2a-ac46-4f47-899b-e88dea99c5c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "928de9d5-1efa-40da-b7a0-6fb50cf16dab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage Pengeluaran",
+      "targets": [
+        ["linkText=Manage Pengeluaran", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidenav-collapse-main']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pengeluaran')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage Pengeluaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e96b8d1-dbfb-46c7-ada8-3667de08f261",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+ Tambah data Pengeluaran",
+      "targets": [
+        ["linkText=+ Tambah data Pengeluaran", "linkText"],
+        ["css=.btn-outline-success:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'+ Tambah data Pengeluaran')]", "xpath:link"],
+        ["xpath=//div[@id='table-component']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pengeluaranCreate')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+ Tambah data Pengeluaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb0e34f-a86b-4a11-8443-172b81928d7c",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "116adf25-ad21-4a08-9bf9-147965a0b7a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e17499-46da-4cd8-87c4-f0266d88ec45",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338f2574-8be3-4c02-9060-0f8a18105eb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2452f0-a7f7-4b5e-a1b9-0f034a210adb",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.header > .container-fluid",
+      "targets": [
+        ["css=.header > .container-fluid", "css:finder"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": "wqqsasas"
+    }, {
+      "id": "400a3721-a5ee-41c3-a04f-5e7b04cbeb9d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.header > .container-fluid",
+      "targets": [
+        ["css=.header > .container-fluid", "css:finder"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": "13,118"
+    }, {
+      "id": "7b8d3fab-b0ce-4ccd-a544-2685ed8de5f0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.header > .container-fluid",
+      "targets": [
+        ["css=.header > .container-fluid", "css:finder"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": "13,118"
+    }, {
+      "id": "4d7092a2-2555-43b7-ba7c-208540f757f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header > .container-fluid",
+      "targets": [
+        ["css=.header > .container-fluid", "css:finder"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db79aa9a-b58f-42c6-b6ca-51943b059a9a",
+      "comment": "",
+      "command": "type",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "shajhdjahjdja"
+    }, {
+      "id": "ac0f92fd-eb3b-4c77-9e91-b00ba337d5d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "197ca91b-d431-4aaf-bfbb-fbc80f37fce6",
+      "comment": "",
+      "command": "type",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pembangunan"
+    }, {
+      "id": "aa8d5a90-4b38-49c3-9653-360e776745b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee5c774-0c37-4140-85ad-32b84672febe",
+      "comment": "",
+      "command": "type",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2020-07-24"
+    }, {
+      "id": "ac099703-26c6-42bc-8e21-cda30c7c85e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e27edb7-6c03-408e-a670-ab45627d09fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2492e086-9faa-4654-8901-8907b1f7ce40",
+      "comment": "",
+      "command": "type",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2020-07-01"
+    }, {
+      "id": "039df533-e7b2-4a56-b772-d6ec7197f962",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07ae03b-70b4-4eb3-80b0-6924c4103d8c",
+      "comment": "",
+      "command": "type",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "pengeluaran"
+    }, {
+      "id": "4a8b5a4e-507e-4e67-8644-0b3c676388c0",
+      "comment": "",
+      "command": "click",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78ac91b2-456d-4b6a-81e3-ba3922de67f6",
+      "comment": "",
+      "command": "type",
+      "target": "name=buktipengeluaran",
+      "targets": [
+        ["name=buktipengeluaran", "name"],
+        ["css=div:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='buktipengeluaran']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\2.1..PNG"
+    }, {
+      "id": "c1b4761a-f030-4a46-b1f8-f2ccbe58274d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1a8c2f-5af6-4faa-a280-578b346dcb80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit",
+      "targets": [
+        ["linkText=Edit", "linkText"],
+        ["css=tr:nth-child(1) .btn-outline-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit')]", "xpath:link"],
+        ["xpath=//div[@id='table-component']/div[3]/table/tbody[2]/tr/td[6]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pengeluaran/edit/2')]", "xpath:href"],
+        ["xpath=//td[6]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e5cdae-ec8c-4205-a722-037d84bd8a48",
+      "comment": "",
+      "command": "click",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29888726-2b1d-4178-b2d9-509552f65366",
+      "comment": "",
+      "command": "click",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c1c6e95-3e42-4002-a76e-4c5b922697ef",
+      "comment": "",
+      "command": "type",
+      "target": "name=jenis_pengeluaran",
+      "targets": [
+        ["name=jenis_pengeluaran", "name"],
+        ["css=.focused > .form-control", "css:finder"],
+        ["xpath=//input[@name='jenis_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12100dsj"
+    }, {
+      "id": "56332e4f-e9fc-4d94-b9fb-b9beee19319a",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "710ddd1a-fe70-428a-a0d9-bb6ac0338f40",
+      "comment": "",
+      "command": "type",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2020-07-24"
+    }, {
+      "id": "d790eb7d-c3b8-44e4-90f2-1df7bbd004f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0fdb62-5b2c-496f-a5d6-4061c5eae263",
+      "comment": "",
+      "command": "type",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "ankank"
+    }, {
+      "id": "0744f097-3984-4c30-9435-9a4cba5c2765",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='keterangan'])[2]", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e67f8b1e-ed6c-46c2-b239-13fb0a7a91fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8cc5e2f-a8f0-4c4c-ad58-64fbe1c5b877",
+      "comment": "",
+      "command": "type",
+      "target": "name=keterangan",
+      "targets": [
+        ["name=keterangan", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='keterangan']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "ankank121"
+    }, {
+      "id": "6ff8fb78-bd2c-4e9c-b61c-18e2b7cf0b33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='keterangan'])[2]", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eaa0487-6bdd-48d2-bc97-60c4844e709a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='keterangan'])[2]", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\3.1.PNG"
+    }, {
+      "id": "bcbbd6c8-9d2c-4d54-8f24-d8090d8aae4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d37bf2f-55e3-4f7e-bc2a-8e81f504e888",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7a6ac9-aa1d-4352-a6eb-2155b11d771a",
+      "comment": "",
+      "command": "type",
+      "target": "name=nominal_pengeluaran",
+      "targets": [
+        ["name=nominal_pengeluaran", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nominal_pengeluaran']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "10321"
+    }, {
+      "id": "9c51f699-c59e-453b-b12e-753a610ea5b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8e36cf80-2631-437d-82e9-119e17215abe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c97fc209-0f10-4081-8b8c-43dc2b9fe0b9"]
+  }],
+  "urls": ["http://127.0.0.1:8000/bendahara"],
+  "plugins": []
+}
